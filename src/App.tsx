@@ -26,7 +26,8 @@ function App() {
         </button>
       </div>
         {/* Here we add our button with alert callback */}
-     <p>{WebApp.initData}</p>
+      <div className="card">
+        <p>{WebApp.initData}</p>
         <button onClick={() => WebApp.showAlert(` Current count is ${count}`)}>
             Show Alert
         </button>
