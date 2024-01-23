@@ -1,6 +1,6 @@
 
 import './App.css'
-import { WebAppProvider, useInitData} from '@vkruglikov/react-telegram-web-app'
+import {  useInitData} from '@vkruglikov/react-telegram-web-app'
 function App() {
   // Assuming you have a function that fetches a user and returns a Promise
   
