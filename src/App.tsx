@@ -8,10 +8,9 @@ function App() {
   const userid = initData?.user?.id
   return (
     <>
-    <WebAppProvider>
     
 <p>{userid}</p>
-    </WebAppProvider>
+   
     </>
   )
 }
